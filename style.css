@@ -1,0 +1,95 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing:border-box;
+}
+.navbar{
+    background-color:#ff6600;
+    height: 88px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title1{
+    font-family: "Lato";
+    font-size: 24px;
+    color:#FFFFFF;
+}
+.section1{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.masterpara{
+    font-family: "Lato";
+    font-size: 10px;
+}
+
+.div1{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    gap: 10px;
+}
+.div1 h1{
+    font-family:"Lato";
+}
+
+.div1 img{
+    height: 40px;
+}
+.section2{
+    min-width: 1000px;
+    min-height: 150px;
+    box-shadow: 0 0 4px #f9dbdb;
+    border-radius:20px;
+    padding:30px  40px 10px 40px;
+}
+
+.div2{
+    display:flex;
+    gap:15px;
+
+}
+
+.div2 input{
+    border:none;
+    width:600px;
+    height:50px;
+    background-color: #B6B6B6;
+    border-radius: 10px;
+    font-size:20px;
+    padding-left: 10px;
+}
+
+.div2{
+    display:flex;
+    gap:15px;
+}
+
+.div2 input::placeholder{
+     color: #000000;
+     padding-bottom: 50px;
+}
+
+.btn1 {
+    border: none;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #007bff; /* BLUE BUTTON */
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn1:hover {
+    background-color: #0056b3;
+}
+
+.textdiv {
+    text-align: center;
+    margin-top: 15px;
+    color: #666;
+}
